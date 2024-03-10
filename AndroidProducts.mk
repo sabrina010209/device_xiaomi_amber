@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_amber.mk
+    $(LOCAL_DIR)/lineage_amber.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_amber-user \
-    aosp_amber-userdebug \
-    aosp_amber-eng
+    lineage_amber-user \
+    lineage_amber-userdebug \
+    lineage_amber-eng

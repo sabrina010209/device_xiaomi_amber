@@ -222,7 +222,6 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    ApertureResTarget \
     SettingsResOverlayAmber \
     SystemUIOverlayAmber \
     WifiOverlay \
@@ -230,10 +229,6 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayAmber \
     TelephonyResOverlayAmber \
     TetheringResOverlayAmber
-
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-aosp \
-    $(LOCAL_PATH)/overlay-elixir
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
